@@ -1,4 +1,7 @@
 ## Changelog
+##### Unreleased
+- Added [well-formed `JSON.stringify`](https://github.com/tc39/proposal-well-formed-stringify), ES2019 feature
+
 ##### 3.3.5 - 2019.10.29
 - Added a workaround of V8 deoptimization which causes serious performance degradation (~4x in my tests) of `Array#concat`, [#679](https://github.com/zloirock/core-js/issues/679)
 - Added a workaround of V8 deoptimization which causes slightly performance degradation of `Promise`, [#679](https://github.com/zloirock/core-js/issues/679)
